@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="stylesheet" href="cssmain.css">
+  <title>Les ordinateurs quantiques</title>
+</head>
+<body>
+
+<div class="menu">
+  <div class="liens">
+    <a href="main.html">Accueil</a>
+    <a href="fonctionnement.html">Comment ça marche</a>
+    <a href="histoire.html">Histoire</a>
+    <a href="utilite.html">Utilité</a>
+    <a href="entreprise.html">Une entreprise française</a>
+  </div>
+</div>
+
+<div class="container">
+  <h1>Comment fonctionne un ordinateur quantique ?</h1>
+    <h2 >Superposition quantique</h2>
+    <p>La superposition quantique est un concept où un objet quantique peut exister dans plusieurs états en même temps, contrairement aux objets classiques qui existent dans un seul état à la fois. Par exemple, un qubit, l'unité fondamentale de l'information quantique, peut être dans un état de superposition où il représente à la fois les valeurs 0 et 1 simultanément, avec des probabilités spécifiques associées à chaque état. Cette superposition permet à un ordinateur quantique de traiter simultanément de multiples combinaisons d'informations, ce qui lui confère une puissance de calcul potentiellement beaucoup plus grande qu'un ordinateur classique.</p>
+
+    <h2 >Intrication quantique</h2>
+    <p>L'intrication quantique est un phénomène où deux particules (ou qubits) sont liées de telle manière que l'état d'une particule est intimement lié à l'état de l'autre, même si elles sont séparées par de grandes distances. Par exemple, deux qubits intriqués peuvent être dans un état où la mesure de l'un affecte instantanément l'état de l'autre, indépendamment de la distance qui les sépare. Cette propriété est cruciale pour le fonctionnement des ordinateurs quantiques, car elle permet la création de systèmes quantiques complexes où les qubits interagissent les uns avec les autres de manière non locale.</p>
+
+    <form id="buttonForm">
+      <div class="btn-container">
+        <button class="btn1" id="btn1" type="button"></button>
+        <p class="arrow-container"><i class="arrow left"></i>Instantané quelle que soit la distance</Instantan><i class="arrow right"></i></p>
+        <button class="btn2" id="btn2" type="button"></button>
+      </div>
+    </form>
+    
+
+    <h2 >Représentation de l'information</h2>
+    <p>Contrairement aux bits classiques qui ne peuvent être que dans un état de 0 ou 1, les qubits peuvent exister dans une superposition de 0 et 1 à la fois. Les portes quantiques sont utilisées pour manipuler les qubits et effectuer des opérations sur eux. Ces portes peuvent créer des superpositions et des intrication entre les qubits.</p>
+
+    <h2 >Exécution des algorithmes quantiques</h2>
+    <p>Les algorithmes quantiques exploitent la superposition et l'intrication pour effectuer des calculs plus rapidement que les algorithmes classiques. Par exemple, l'algorithme de Grover peut rechercher un élément dans une liste non triée de manière beaucoup plus efficace qu'un algorithme classique en exploitant la superposition et l'intrication quantique. L'algorithme de Shore quant à lui permet de décomposer de très grands nombre en produit de facteur premiers.</p>
+
+    <h2 >Mesure et résultats</h2>
+    <p>Lorsque les qubits sont mesurés, ils "collapsent" dans un état déterminé, soit 0 soit 1, en fonction des probabilités associées à chaque état dans leur superposition. Les résultats des calculs quantiques sont probabilistes, ce qui signifie que même si un algorithme quantique peut fournir la réponse correcte avec une probabilité élevée, il peut également produire des résultats incorrects avec une certaine probabilité.</p>
+
+    <h2>Résoudre les erreurs</h2>
+    <p>Les ordinateurs quantiques peuvent être affectés par la décohérence quantique. Cela se produit lorsque le système quantique perd sa cohérence et commence à se comporter comme un système classique a cause de son interaction l'environnement. Les propriétés quantiques telles que la superposition et l'intrication disparaissent donc, 
+      l'ordinateur quantique devient un simple ordinateur.
+      Pour remedier à ce problème Robert CALDERBANK, Peter SHOR et Andrew STEANE invent en 1996 les premiers codes correcteurs d'ordinateur quantique qui corrige les fautes de calcules.
+    </p>
+</div>
+
+<div class="sources">
+  <p>Sources: <a href="https://www.institut-pandore.com/physique-quantique/informatique-ordinateur-quantique/">institut pandore</a>
+    <a href="https://www.youtube.com/watch?v=HHW73jxX56g">CEA</a></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
